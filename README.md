@@ -31,15 +31,15 @@ Any one interested can use the weights and further explore for better performanc
 	        #Flattening the layers
  	        #add dense 3 layer 
 	        #last two dense layer with 50 and 2 units respectively
-	        #last layer will have softmax layer as we have two outputs either with mask or without mask
+	        #last layer will have softmax layer as we have two outputs either with mask or 			without mask
 	
 
 
         -now we are going to split data into train test using sklearn.model_selection
         -we are going to keep check points
-        - we are doing early stopping in case for worse case. we will be monitoring val_loss as tracking metrics
+        - we are doing early stopping in case for worse case. we will be monitoring val_loss as 	tracking metrics
         -we are going to keep best weights
-        -callback_list will be maintained for tracking checkpoints, early stopping points, reduce_learning_rates for better peformance
+        -callback_list will be maintained for tracking checkpoints, early stopping points, 	    reduce_learning_rates for better peformance
         -now we are going to compile our model with adam optimizer and metric as accuracy
         -we are going to train for 40 epochs
         -plot of loss vs epochs for training loss and validation loss is shown below
@@ -47,5 +47,11 @@ Any one interested can use the weights and further explore for better performanc
 # plots:
 
         
-  
+  ![Screenshot from 2021-06-15 14-43-06](https://user-images.githubusercontent.com/83119874/122024919-991f3c80-cde8-11eb-8393-4641ed1f78ef.png)
+ # Results:
+ ![Screenshot from 2021-06-15 14-29-10](https://user-images.githubusercontent.com/83119874/122025027-b6540b00-cde8-11eb-917a-3fe08267eacc.png)
+![Screenshot from 2021-06-15 14-11-46](https://user-images.githubusercontent.com/83119874/122025052-bce28280-cde8-11eb-82fb-ec520b4794bf.png)
+
+![Screenshot from 2021-06-15 14-11-51](https://user-images.githubusercontent.com/83119874/122025067-c0760980-cde8-11eb-84ca-c9589592fd64.png)
+
         
